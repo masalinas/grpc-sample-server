@@ -17,7 +17,7 @@ public class GrpcServerService extends MyServiceGrpc.MyServiceImplBase {
 
     @Override
     public void sayHello(HelloRequest req, StreamObserver<HelloReply> responseObserver) {
-    	log.info("say hello called");
+    	log.info("say hello called from server side");
     	
         HelloReply reply = HelloReply.newBuilder().setMessage("Hello ==> " + req.getName()).build();
         responseObserver.onNext(reply);
