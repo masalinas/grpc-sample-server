@@ -22,7 +22,7 @@
 		<grpc-definition.version>0.0.1-SNAPSHOT</grpc-definition.version>
 		<grpc-server.springboot.version>2.14.0.RELEASE</grpc-server.springboot.version>
 	</properties>
-    	
+     	
 	<dependencies>
 		<!-- spring-boot dependencies -->
 		<dependency>
